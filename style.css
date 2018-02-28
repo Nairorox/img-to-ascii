@@ -1,0 +1,12 @@
+*{
+	font-family: monospace;
+	font-size:1px;
+	/*letter-spacing: 0.2px;*/
+}
+canvas{
+	border:solid black;
+	display:none;
+}
+.output{
+	min-width:100vh;
+}
