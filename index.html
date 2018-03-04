@@ -6,10 +6,26 @@
 	<link rel = "stylesheet" type = "text/css" href = "style.css"></link>
 </head>
 <body>
-	<canvas width = "10000" height = "10000"></canvas><br>
+		<canvas width = "10000" height = "10000"></canvas>
+	<main>
+		<nav>
+		<ul>
+			<li><a href = "http://github.com/nairorox" target= "_blank">My Github</a></li>
+		</ul>
+	</nav>
+	<section class = "output"></section>
+	<label>Merge X:</label><input data-type = "horizontal" type = "number" class = "merger" min = "1"><br>
+	<label>Merge Y:</label><input data-type = "vertical" type = "number" class = "merger" min = "1"><br>
+	   <input type="file" id="file" name="file"><br>
+		<img  width = "100%" height = "550px" class = "preview-image"></img><br>
+		<button class = "sampleImage">Load Sample</button>
 
-	<div class = "output"></div>
+		<section class = "overlay">
+				Loading...
+		</section>
 
 	<script src = "js.js"></script>
+	<script src = "interface.js"></script>
+	</main>
 </body>
 </html>
